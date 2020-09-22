@@ -5,8 +5,8 @@ import uvicorn
 from app.api import predict, viz
 
 app = FastAPI(
-    title='DS API',
-    description='Lorem ipsum',
+    title='Spotify api',
+    description='Usful api to get song predictions',
     version='0.1',
     docs_url='/',
 )
