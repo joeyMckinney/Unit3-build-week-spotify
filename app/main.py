@@ -7,7 +7,7 @@ from app.api import predict, viz
 app = FastAPI(
     title='Spotify api',
     description='Usful api to get song predictions',
-    version='0.1',
+    version='0.2',
     docs_url='/',
 )
 

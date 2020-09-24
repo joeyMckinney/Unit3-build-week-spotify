@@ -17,6 +17,8 @@ pandas = "*"
 uvicorn = "*"
 plotly = "*"
 joblib = "*"
+sklearn = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.7"
