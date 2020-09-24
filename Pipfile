@@ -16,6 +16,7 @@ fastapi = "*"
 pandas = "*"
 uvicorn = "*"
 plotly = "*"
+joblib = "*"
 
 [requires]
 python_version = "3.7"

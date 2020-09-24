@@ -4,10 +4,13 @@ import random
 from fastapi import APIRouter
 import pandas as pd
 from pydantic import BaseModel, Field, validator
+import joblib
 
 log = logging.getLogger(__name__)
 router = APIRouter()
 
+selectors = joblib.load('app/api/selectors.pkl')
+vectorizer = joblib.load('app/api/vectorizer.pkl')
 
 class Item(BaseModel):
     """Use this data model to parse the request body JSON."""
