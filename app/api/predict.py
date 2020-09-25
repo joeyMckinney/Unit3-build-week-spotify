@@ -6,7 +6,6 @@ import pandas as pd
 import numpy as np
 from pydantic import BaseModel, Field, validator
 import joblib
-import json
 
 log = logging.getLogger(__name__)
 router = APIRouter()
